@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Innovate 2017</string>
+    <string name="url">https://www.baidu.com/</string>
+    <string name="feeds_speakers1">https://apps1.paypal-labs.com/ppi/innovate/feeds/speakers</string>
+    <string name="feeds_speakers">http://10.0.2.2/speakers.json</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="position">http://10.0.2.2/bling.json</string>
+</resources>

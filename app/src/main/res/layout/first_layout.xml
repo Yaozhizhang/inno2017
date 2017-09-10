@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_home_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_background"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:id="@+id/image_home_menucheckin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/home_menucheckin"
+        android:background="#0000"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="137dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/image_button_home"
+        android:layout_alignStart="@+id/image_button_home" />
+    <ImageButton
+        android:id="@+id/image_home_menuprogram"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/home_menuprogram"
+        android:background="#0000"
+        android:layout_alignTop="@+id/image_home_menucheckin"
+        android:layout_toLeftOf="@+id/image_home_menuspeakers"
+        android:layout_toStartOf="@+id/image_home_menuspeakers"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp" />
+    <ImageButton
+        android:id="@+id/image_home_menuspeakers"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/home_menuspeakers"
+        android:background="#0000"
+        android:layout_alignTop="@+id/image_home_menuprogram"
+        android:layout_alignRight="@+id/image_button_info"
+        android:layout_alignEnd="@+id/image_button_info"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+    <ImageButton
+        android:id="@+id/image_home_menuhackathon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/home_menuhackathon"
+        android:background="#0000"
+        android:layout_below="@+id/image_home_menucheckin"
+        android:layout_alignLeft="@+id/image_home_menucheckin"
+        android:layout_alignStart="@+id/image_home_menucheckin" />
+    <ImageButton
+        android:id="@+id/image_home_menuappgallery"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/home_menugallery"
+        android:background="#0000"
+        android:layout_alignLeft="@id/image_home_menuprogram"
+        android:layout_below="@id/image_home_menuprogram"
+        android:layout_alignStart="@id/image_home_menuprogram"/>
+    <ImageButton
+        android:id="@+id/image_home_menusocial"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/home_menusocial"
+        android:background="#0000"
+        android:layout_alignLeft="@id/image_home_menuspeakers"
+        android:layout_below="@id/image_home_menuspeakers"
+        android:layout_alignStart="@id/image_home_menuspeakers"/>
+    <ImageButton
+        android:id="@+id/image_home_menuhighlights"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/home_menuparties"
+        android:background="#0000"
+        android:layout_above="@+id/image_home_menupselector"
+        android:layout_alignLeft="@+id/image_home_menuhackathon"
+        android:layout_alignStart="@+id/image_home_menuhackathon"
+        android:layout_marginBottom="10dp" />
+    <ImageButton
+        android:id="@+id/image_home_menumap"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/home_menumap"
+        android:background="#0000"
+        android:layout_alignTop="@+id/image_home_menuhighlights"
+        android:layout_alignLeft="@+id/image_home_menuappgallery"
+        android:layout_alignStart="@+id/image_home_menuappgallery" />
+    <ImageButton
+        android:id="@+id/image_home_menusponsors"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/home_menusponsors"
+        android:background="#0000"
+        android:layout_alignTop="@+id/image_home_menumap"
+        android:layout_alignLeft="@+id/image_home_menusocial"
+        android:layout_alignStart="@+id/image_home_menusocial" />
+    <ImageButton
+        android:id="@+id/image_home_menupselector"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/home_menuproduct"
+        android:background="#0000"
+        android:layout_above="@+id/image_button_info"
+        android:layout_alignLeft="@+id/image_home_menuhighlights"
+        android:layout_alignStart="@+id/image_home_menuhighlights" />
+    <ImageButton
+        android:id="@+id/image_home_menumybadges"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/home_badges"
+        android:background="#0000"
+        android:layout_alignTop="@+id/image_home_menupselector"
+        android:layout_alignLeft="@+id/image_home_menusponsors"
+        android:layout_alignStart="@+id/image_home_menusponsors"/>
+    <ImageButton
+    android:id="@+id/image_home_menuleaderboard"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/home_leaders" android:background="#0000"
+        android:layout_alignTop="@+id/image_home_menupselector"
+        android:layout_alignLeft="@+id/image_home_menumap"
+        android:layout_alignStart="@+id/image_home_menumap" />
+    <ImageButton
+        android:id="@+id/image_button_home"
+        android:layout_width="40dp"
+        android:layout_height="34dp"
+        android:src="@drawable/home_icon"
+        android:background="#00000000"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+    <ImageButton
+        android:id="@+id/image_button_info"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/info_icon"
+        android:layout_marginRight="6dp"
+        android:background="#00000000"
+        android:layout_marginEnd="6dp"
+        android:layout_alignBottom="@+id/image_button_home"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

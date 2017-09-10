@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.topcoder.innovate.innovate2017.SpeakerListDetailActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/speakerdetails_background"
+        android:scaleType="fitXY" />
+    <Button
+        android:id="@+id/detailback"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#0000"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/speakers_tempicon"
+        android:layout_below="@+id/detailback"
+        android:layout_alignLeft="@+id/detailback"
+        android:layout_alignStart="@+id/detailback" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="240dp"
+        android:layout_height="37dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:paddingTop="3dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:layout_alignTop="@+id/photo"
+        android:layout_toRightOf="@+id/photo"
+        android:layout_toEndOf="@+id/photo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="240dp"
+        android:layout_height="37dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:paddingTop="5dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@+id/photo"
+        android:layout_below="@+id/name" />
+    <ScrollView
+        android:id="@+id/details"
+        android:layout_width="360dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/photo"
+        android:layout_alignStart="@+id/photo"
+        android:layout_marginTop="12dp"
+        android:layout_above="@+id/image_button_info" >
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp" />
+    </ScrollView>
+    <ImageButton
+        android:id="@+id/image_button_home"
+        android:layout_width="40dp"
+        android:layout_height="34dp"
+        android:src="@drawable/home_icon"
+        android:background="#00000000"
+        android:layout_alignParentBottom="true"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+    <ImageButton
+        android:id="@+id/image_button_info"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/info_icon"
+        android:background="#00000000"
+        android:layout_alignBottom="@+id/image_button_home"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+</RelativeLayout>

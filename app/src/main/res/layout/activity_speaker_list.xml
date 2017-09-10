@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.topcoder.innovate.innovate2017.SpeakerListActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/speakers_background"
+        android:scaleType="fitXY" />
+    <ListView
+        android:id="@+id/speaker_listview"
+        android:layout_width="360dp"
+        android:layout_height="400dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"/>
+    <ImageButton
+        android:id="@+id/image_button_home"
+        android:layout_width="40dp"
+        android:layout_height="34dp"
+        android:src="@drawable/home_icon"
+        android:background="#00000000"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+    <ImageButton
+        android:id="@+id/image_button_info"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/info_icon"
+        android:layout_marginRight="6dp"
+        android:background="#00000000"
+        android:layout_marginEnd="6dp"
+        android:layout_alignBottom="@+id/image_button_home"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
